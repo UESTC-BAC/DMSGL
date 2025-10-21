@@ -24,6 +24,9 @@ Due to the uncertainty and individual specificity of emotional cognition, **ther
 
 If you use the EEG acquisition device in the image of paradigm, you first need to obtain the device driver and install the **timeflux-eego** package to acquire signals in Python. When installing the EEGO-Timflux package, **you need to pay attention to the pybind11 version and install the C compiler MSVC**. Simply run python setup.py install in the terminal to install the timeflux-eego package.
 
+# Usage
+In the repository, EEG_utils.py and preprocess.py are tool functions for data preprocessing in the system, and these two toolkits are also used in the online simulation experiment of the SEED dataset. The entire online system is protected by the company's patent. If you need to obtain the online system, please contact cunboli@163.com.
+
 # Citation
 @inproceedings{
 Pan2025dmsgl,
