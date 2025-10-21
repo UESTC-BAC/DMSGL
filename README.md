@@ -11,3 +11,14 @@ Due to the uncertainty and individual specificity of emotional cognition, **ther
 
 ### The paradigm of online emotion decoding experiment
 ![The framework of DMSGL](./images/paradigm.png)
+
+# Installation
+Python 3.11；
+numpy 1.24.3；
+pandas 1.5.3；
+scikit_learn 1.3.0；
+scipy 1.10.1；
+torch 2.0.1；
+NVIDIA CUDA 11.81；
+pybind11 2.12.0
+
