@@ -10,7 +10,7 @@ Due to the uncertainty and individual specificity of emotional cognition, **ther
 ![The framework of DMSGL](./images/framework.png)
 
 ### The paradigm of online emotion decoding experiment
-![The framework of DMSGL](./images/paradigm.png)
+![The paradigm of DMSGL](./images/paradigm.png)
 
 # Installation
 - Python 3.11；
@@ -22,3 +22,4 @@ Due to the uncertainty and individual specificity of emotional cognition, **ther
 - NVIDIA CUDA 11.81；
 - pybind11 2.12.0
 
+If you use the EEG acquisition device in the image of paradigm, you first need to obtain the device driver and install the **timeflux-eego** package to acquire signals in Python. When installing the EEGO-Timflux package, **you need to pay attention to the pybind11 version and install the C compiler MSVC**. Simply run python setup.py install in the terminal to install the timeflux-eego package.
